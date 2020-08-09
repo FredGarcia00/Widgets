@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Accordion from './components/Accordion';
 import Search from './components/Search';
 import Dropdown from './components/Dropdown';
-import Translate from './components/Translate';
+// import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
 const items = [
@@ -56,9 +56,9 @@ const options = [
                 selected={selected}
                 onSelectedChange={setSelected}/>
             </Route>
-            <Route path="/translate">
+            {/* <Route path="/translate">
                 <Translate/>
-            </Route>
+            </Route> */}
         </div>
     )
 }
